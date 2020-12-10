@@ -226,7 +226,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 300;
 	line-height: 30px;
 	margin: 0 auto;
-	margin-bottom: 60px;
+	margin-bottom: 35px;
 }
 header .intro-text {
 	padding-top: 130px;
@@ -278,10 +278,15 @@ header .intro-text {
 #about {
 	padding: 100px 0;
 }
-#about h3 {
+#about h3{
 	font-size: 22px;
 	margin: 0 0 20px 0;
+	color: white;
 }
+#about p, #about li {
+	color: white;
+}
+
 #about h2 {
 	position: relative;
 	margin-bottom: 15px;
@@ -526,17 +531,17 @@ label {
 	font-family: 'Open Sans', sans-serif;
 	float: left;
 }
-#contact .form-control {
+.form-control {
 	display: block;
 	width: 100%;
-	padding: 6px 12px;
+	padding: 25px;
 	font-size: 16px;
 	line-height: 1.42857143;
 	color: #444;
 	background-color: #fff;
 	background-image: none;
 	border: 1px solid #ddd;
-	border-radius: 0;
+	border-radius: 4px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	-webkit-transition: none;
